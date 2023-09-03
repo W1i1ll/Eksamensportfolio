@@ -104,7 +104,7 @@ body {
   /* LANDING PAGE BAGGRUND BILLEDE */
   @media (min-width: 601px) {
     #background_img {
-      background-image: url(imgs/background.png);
+      background-image: url(imgs/background.webp);
       background-size: cover;
       margin-top: 0%;
       aspect-ratio: 15/9;
