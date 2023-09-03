@@ -1,0 +1,184 @@
+body {
+    background-color: #D0B288;
+  }
+  
+  * {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+  }
+  
+  header {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  header li {
+    list-style: none;
+  }
+  
+  a {
+    color: rgb(0, 1, 2);
+    text-decoration: none;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 24px;
+  }
+  
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .nav-branding {
+    font-size: 2rem;
+  }
+  
+  .nav-link {
+    transition: 0.7s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: rgb(0, 0, 0);
+  }
+  
+  .burgermenu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(0, 0, 0);
+  }
+  /* BURGERMENU MOBILE */
+  @media (max-width: 601px) {
+    .burgermenu {
+      display: block;
+    }
+  
+    .burgermenu.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+    .burgermenu.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+    .burgermenu.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  
+    .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 30px;
+      gap: 0;
+      flex-direction: column;
+      background-color: rgb(255, 255, 255);
+      width: 100%;
+      text-align: center;
+      transition: 0.3s;
+    }
+  
+    .nav-item {
+      margin: 15px 0;
+    }
+  
+    .nav-menu.active {
+      left: 0;
+    }
+  }
+  /* LANDING PAGE BAGGRUND BILLEDE */
+  @media (min-width: 601px) {
+    #background_img {
+      background-image: url(imgs/background.png);
+      background-size: cover;
+      margin-top: 0%;
+      aspect-ratio: 15/9;
+      width: 100%;
+      height: 100%;
+      top: 0%;
+      left: 0%;
+      justify-content: center;
+    }
+  /* FOOTER */
+    footer {
+      background-color: #D0B288;
+      font-size: 20px;
+      font-weight: 300;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(0, 0, 0);
+      margin: 1%;
+      padding: 5px;
+      display: flex;
+    }
+  /* GRIDS */
+    .grid_2-1 {
+      display: grid;
+      gap: 2em;
+      grid-template-columns: 2fr 1fr;
+      grid-column: auto;
+      margin-top: -1em;
+      margin-bottom: 1em;
+      margin-right: 2em;
+    }
+  
+    .grid_1-2 {
+      display: grid;
+      gap: 2em;
+      grid-template-columns: 1fr 2fr;
+      grid-column: auto;
+      margin-top: -1em;
+      margin-bottom: 1em;
+      margin-right: 2em;
+    }
+  
+    .grid_2-2 {
+      display: grid;
+      gap: 2em;
+      grid-template-columns: 2fr 2fr;
+      grid-column: auto;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      margin-right: 2em;
+    }
+  }
+  /* baggrund på forsiden på telefon*/
+  @media (max-width: 600px) {
+    #background_img {
+      background-image: url(imgs/backgroundphone.webp);
+      aspect-ratio: 4.5/8;
+      background-size: 100%;
+      width: 100%;
+      height: 100%;
+      top: 0%;
+      left: 0%;
+      margin-top: 4%;
+      justify-content: center;
+      
+    }
+    /* FOOTER MOBILE */
+    footer {
+      background-color: #D0B288;
+      font-size: 20px;
+      font-weight: 300;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(53, 45, 45);
+      margin: 1%;
+      padding: 5px;
+      display: flex;
+    }
+  }

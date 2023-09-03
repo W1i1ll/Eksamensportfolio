@@ -1,0 +1,161 @@
+/* kasse  */
+main {
+    background-color: #ffffff;
+    max-width: 1000px;
+    margin: 15%;
+    border-radius: 45px;
+    margin-top: 3%;
+    height: 978px;
+  }
+  /* tekst */
+  main h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    margin-top: 15%;
+    margin-left: 10%;
+  }
+  
+  main h2 {
+    font-size: 50px;
+    font-weight: 450;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+    margin-left: 14%;
+    color: rgb(0, 0, 0);
+  }
+  
+  main h3 {
+    font-size: 30px;
+    font-weight: 450;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-top: 3%;
+    margin-left: 10%;
+  }
+  
+  main p {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-bottom: 25%;
+    text-align: left;
+    max-width: 65ch;
+  }
+  
+  main li {
+    font-size: 25px;
+    font-weight: 180;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+    margin-left: 18%;
+  }
+  /* profilbillede */
+  main img {
+    width: 100%; 
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10%;
+    aspect-ratio: 6/6;
+}
+  /* column */
+  .col {
+    margin: 0%;
+    padding: 0.5%;
+    display: grid;
+  }
+
+  /* grids */
+  .grid_2-2 {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 2fr 2fr;
+    grid-column: auto;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    margin-right: 2em;
+  }
+
+  .grid_1-2 {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 1fr 2fr;
+    grid-column: auto;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    margin-right: 2em;
+  }
+
+  /* til phonesite view */
+  @media (max-width: 600px) {
+    main h1 {
+      font-size: 45px;
+      font-weight: 600;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #000000;
+      margin-top: 55px;
+      margin-left: 5%;
+      overflow: auto;
+    }
+  
+    main h2 {
+      font-size: 30px;
+      font-weight: 600;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(0, 0, 0);
+      margin-top: 60px;
+      margin-left: 15%;
+    }
+  
+    main h3 {
+      font-size: 20px;
+      font-weight: 450;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(0, 0, 0);
+      margin-top: 15px;
+      margin-left: 5%;
+      margin-bottom: -100%;
+    }
+  
+    main p {
+      font-size: 16px;
+      font-weight: 600;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: -50%;
+      margin-left: 10%;
+      text-align: left;
+      font-weight: 500;
+      max-width: 65ch;
+      color: rgb(0, 0, 0);
+    }
+  
+    main li {
+      font-size: 18px;
+      font-weight: 500;
+      color: rgb(0, 0, 0);
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 30px;
+      margin-left: 15%;
+      margin-bottom: 25%;
+      text-align: left;
+    }
+  
+    main img {
+      aspect-ratio: 6/6;
+      width: 200px;
+      margin-left: -5%;
+      margin-top: 4%;
+    }
+    main {
+      background-color: #ffffff;
+      margin: 5%;
+      border-radius: 45px;
+      margin-top: 10%;
+      height: auto;
+    }
+  }
