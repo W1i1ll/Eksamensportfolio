@@ -134,7 +134,7 @@ main {
   
     main h3 {
       font-size: 15px;
-      font-weight: 600;
+      font-weight: 200;
     }
   
     .box1 {
@@ -152,7 +152,7 @@ main {
   
     img {
       justify-content: center;
-      width: 350px;
+      width: 320px;
       height: 200px;
       margin-left: 5%;
       margin-right: auto;

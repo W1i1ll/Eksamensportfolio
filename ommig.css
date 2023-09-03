@@ -98,8 +98,8 @@ main {
       font-weight: 600;
       font-family: Arial, Helvetica, sans-serif;
       color: #000000;
-      margin-top: 55px;
-      margin-left: -15%;
+      margin-top: 28px;
+      margin-left: -20%;
       overflow: auto;
     }
   
@@ -113,19 +113,21 @@ main {
     }
   
     main h3 {
-      font-size: 20px;
-      font-weight: 450;
+      font-size: 14.45px;
+      font-weight: 600;
       font-family: Arial, Helvetica, sans-serif;
       color: rgb(0, 0, 0);
       margin-top: 15px;
-      margin-left: -15%;
-      margin-bottom: -100%;
+      margin-left: -15.2%;
+      margin-bottom: -50%;
+      margin-right: 30%;
+      
     }
   
     main p {
       font-size: 99.85%;
       font-family: Arial, Helvetica, sans-serif;
-      margin-top: -15%;
+      margin-top: 5%;
       margin-left: 10%;
       text-align: left;
       font-weight: 500;
@@ -150,6 +152,14 @@ main {
       margin-left: -5%;
       margin-top: 4%;
     }
+
+    /*   main img {
+    width: 100%; 
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10%;
+    aspect-ratio: 6/6;
+} */
     main {
       background-color: #ffffff;
       margin: 5%;
