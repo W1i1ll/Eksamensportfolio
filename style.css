@@ -1,7 +1,11 @@
 body {
     background-color: #D0B288;
   }
-  
+
+  .spacing {
+    margin-bottom: 20px; /* Adjust the value as needed */
+  }
+
   * {
     padding: 0%;
     margin: 0%;
