@@ -70,7 +70,7 @@ main {
     display: grid;
   }
 
-  /* grids */
+  /* grid */
   .grid_2-2 {
     display: grid;
     gap: 2em;

@@ -1,1 +1,2 @@
 Header add "Cache-Control" "no-cache"
+tilføjer så hjemmesiden ikke cacher 
