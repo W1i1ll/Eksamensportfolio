@@ -1,4 +1,10 @@
 // BurgerMenu
+// Koden reagerer på klik på burgermenuen og skifter klassen "active" på både burgermenu og navigationsmenu for at vise/skjule menuen.
+// Hvis brugeren klikker på et navigationslink, fjernes klassen "active" fra burgermenuen og navigationsmenuen for at lukke menuen.
+// Det bruger querySelector til at vælge HTML-elementer med passende klasser.
+// Event listeners bruges til at håndtere klik begivenheder og ændre tilstandene på de valgte elementer.
+// Samlet set giver koden en simpel interaktion for at åbne/lukke en burgermenu på websiden.
+
 const burgermenu = document.querySelector(".burgermenu");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -13,22 +19,3 @@ document.querySelectorAll(".nav-link").forEach(link => {
         navMenu.classList.remove("active");
     });
 });
-
-// // BurgerMenu
-// const burgermenu = document.querySelector(".burgermenu");  // Vælg det element, der repræsenterer burgermenuen
-// const navMenu = document.querySelector(".nav-menu");  // Vælg det element, der indeholder navigationsmenuen
-
-// burgermenu.addEventListener("click", () => {
-//     // Lyt efter klik på burgermenuen og udfør følgende funktion:
-//     burgermenu.classList.toggle("active");  // Skift tilstanden (tilføj eller fjern) klassen "active" på burgermenuen
-//     navMenu.classList.toggle("active");  // Skift tilstanden (tilføj eller fjern) klassen "active" på navigationsmenuen
-// });
-
-// document.querySelectorAll(".nav-link").forEach(link => {
-//     // Vælg alle elementer med klassen "nav-link" og udfør følgende funktion for hvert element:
-//     link.addEventListener("click", () => {
-//         // Lyt efter klik på et navigationslink og udfør følgende funktion:
-//         burgermenu.classList.remove("active");  // Fjern klassen "active" fra burgermenuen
-//         navMenu.classList.remove("active");  // Fjern klassen "active" fra navigationsmenuen
-//     });
-// });
